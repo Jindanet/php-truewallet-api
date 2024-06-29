@@ -24,7 +24,7 @@ function giftcode($hash = null, $phone = null) {
 }
 
 $hash = $_GET["link"];
-$phone = "0617584255";
+$phone = "เบอร์โทรศัพท์ที่ต้องการรับเงินจากซอง";
 
 $gift = giftcode($hash, $phone);
 
